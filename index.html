@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TON Connect Web3 App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>TON Web3 App</h1>
+    <button id="connectWallet">Connect TON Wallet</button>
+    <p id="walletAddress">Wallet: Not Connected</p>
+    <button id="checkBalance">Check TON Balance</button>
+    <p id="balance">Balance: -</p>
+    <a href="https://t.me/your_bot_username" target="_blank">
+      <button>Open Telegram Bot</button>
+    </a>
+    <p id="status">Status: Waiting...</p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@tonconnect/sdk@2.0.0/dist/tonconnect.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
